@@ -1,4 +1,4 @@
-all: analyze synth
+all: analyze synth verilog
 
 analyze:
 	ghdl -a masked_aes_pkg.vhdl
