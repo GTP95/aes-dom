@@ -36,12 +36,12 @@ The result will be in a directory called "Verilog".
 
 ### All
 To run all the above targets, just invoke make:  
-`$ make`
+`$ make`  
+
+Or invoke the `all` target:  
+`$ make all`
 
 ### Clean artifacts
 To delete all the generated artifacts and go back to a clean state, run  
 `$ make clean`
-
-
-
 
