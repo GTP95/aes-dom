@@ -17,13 +17,15 @@ This repository provides a Makefile to build this project using Make. To use it,
 - GHDL
 - ghdl-yosys-plugin
 
-### Analisys
+### Analysis
 To analyze the project's files, run  
 `$ make analyze`
 
-### Synthesys
-To synthetize the project, run  
-`$ make synth`
+### Synthesis
+To synthesize the project, run  
+`$ make synth`  
+
+**Note:** this will will run the synthesis using the `synth_ice40` target. Manually change this inside the Makefile when relevant.
 
 ### Verilog
 To get a Verilog netlist, run  
