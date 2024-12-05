@@ -27,7 +27,10 @@ To synthetize the project, run
 
 ### Verilog
 To get a Verilog netlist, run  
-`$ make verilog`
+`$ make verilog`  
+
+The result will be in a directory called "Verilog".
+
 
 ### All
 To run all the above targets, just invoke make:  
