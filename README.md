@@ -45,3 +45,10 @@ Or invoke the `all` target:
 To delete all the generated artifacts and go back to a clean state, run  
 `$ make clean`
 
+### Troubleshoot
+If when running GHDL you get a 'cannot find "std" library' error, it may mean that there is a mismatch between the backend used by GHDL and the one used by the Yosys GHDL plugin.
+Try setting the path for the GHDL prefix like this:
+```BASH
+export GHDL_PREFIX=/usr/lib/ghdl/mcode/vhdl
+```
+And then try again. More information ![here](https://github.com/ghdl/ghdl/issues/2802)
